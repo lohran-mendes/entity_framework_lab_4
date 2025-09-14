@@ -5,5 +5,5 @@ public class Aluno
     public int AlunoId { get; set; }
     public string Nome { get; set; }
     
-    public ICollection<AlunosCursos> AlunosCursos { get; set; }
+    public ICollection<AlunosCursos>? AlunosCursos { get; set; }
 }
